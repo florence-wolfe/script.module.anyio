@@ -1,0 +1,17 @@
+[project]
+name = "script-module-anyio"
+version = "0.1.0"
+description = "High level asynchronous concurrency and networking framework that works on top of either trio or asyncio"
+authors = [
+    { name = "Florence Wolfe", email = "florencewolfe@pm.me" }
+]
+dependencies = [
+    "anyio>=4.3.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
